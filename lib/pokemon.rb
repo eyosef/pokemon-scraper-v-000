@@ -17,7 +17,6 @@ class Pokemon
   def self.find(id, db)
     pokemon = db.execute("SELECT * FROM pokemon WHERE pokemon.id = ?", id).flatten
     pokemon << 60
-    binding.pry
     Pokemon.new(id: pokemon[0], name: pokemon[1], type: pokemon[2], db: db, hp: pokemon[3])
     #db.execute("ALTER TABLE pokemon ADD hp NOT NULL DEFAULT 60")
   end
