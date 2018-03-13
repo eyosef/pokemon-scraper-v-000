@@ -16,11 +16,11 @@ class Pokemon
   def self.find(name, db)
     db.each do |data|
 
-    (
-    "SELECT pokemon.id
-    FROM pokemon
-    WHERE 'name' = pokemon.name;")
-    binding.pry
+    # (
+    # "SELECT pokemon.id
+    # FROM pokemon
+    # WHERE 'name' = pokemon.name;")
+    # binding.pry
   end
 
 
