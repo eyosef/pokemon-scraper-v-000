@@ -13,6 +13,8 @@ class Pokemon
     db.execute("INSERT INTO pokemon (name, type) VALUES (?, ?)", name, type)
     db.execute(
     "ALTER TABLE pokemon
+    ADD hp INTEGER
+    WITH 60"
 
     SELECT name, type 'hp' as hp")
   end
