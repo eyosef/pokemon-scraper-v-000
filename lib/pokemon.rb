@@ -9,6 +9,7 @@ class Pokemon
   end
 
   def self.save(id, name, type)
+    
   end
 
   def self.save(name, breed, age, database_connection)
