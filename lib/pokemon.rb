@@ -8,7 +8,7 @@ class Pokemon
     @id = id
   end
 
-  def self.save(db, name, type)
+  def self.save(id, name, type)
   end
 
 end
