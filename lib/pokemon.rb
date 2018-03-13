@@ -14,14 +14,12 @@ class Pokemon
   end
 
   def self.find(name, db)
-    db.each do |data|
 
-    end
-    # db.execute (
-    # "SELECT pokemon.id
-    # FROM pokemon
-    # WHERE 'name' = pokemon.name;")
-    # binding.pry
+    db.execute (
+    "SELECT pokemon.id
+    FROM pokemon
+    WHERE 'name' = pokemon.name;")
+  
   end
 
 
