@@ -14,6 +14,7 @@ class Pokemon
   end
 
   def self.find(name, db)
+    db.execute()
   end
 
 
