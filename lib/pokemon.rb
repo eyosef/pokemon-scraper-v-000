@@ -14,7 +14,7 @@ class Pokemon
   end
 
   def self.find(name, db)
-    db.each do ||
+    db.each do |data|
 
     (
     "SELECT pokemon.id
