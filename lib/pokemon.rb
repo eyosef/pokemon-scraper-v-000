@@ -7,6 +7,7 @@ class Pokemon
     @type = type
     @id = id
     @db = db
+    @hp = hp
   end
 
   def self.save(name, type, db)
