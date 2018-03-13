@@ -18,6 +18,7 @@ class Pokemon
     "SELECT pokemon.id
     FROM pokemon
     WHERE 'name' = pokemon.name;")
+    binding.pry
   end
 
 
