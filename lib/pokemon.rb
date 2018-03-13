@@ -18,8 +18,8 @@ class Pokemon
     db.execute (
     "SELECT pokemon.id
     FROM pokemon
-    WHERE 'name' = pokemon.name;")
-  
+    WHERE (?) = pokemon.name;")
+
   end
 
 
